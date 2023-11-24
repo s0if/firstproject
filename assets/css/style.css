@@ -5,16 +5,16 @@
     padding: 0;
     box-sizing: border-box;
     text-transform: capitalize;
-    background-color: #eee;
+}
 
+body {
+    background-color: #eee;
+    height: 100rem;
 }
 
 .continer {
     width: calc(100% - 140px);
     margin: auto;
-
-
-
 }
 
 .row {
@@ -23,8 +23,15 @@
     align-items: center;
     flex-wrap: wrap;
 }
-.active{
+
+.active {
     font-weight: 700;
+}
+
+header {
+    margin-top: 10px;
+    background-color: #dedbdb;
+    padding: 1rem;
 }
 
 header .logo {
@@ -32,7 +39,7 @@ header .logo {
     align-items: center;
     gap: 10px;
     font-family: 'Roboto', sans-serif;
-
+    text-decoration: none;
 }
 
 header .logo img {
@@ -46,12 +53,10 @@ header .logo a {
 
 nav ul {
     display: flex;
-    gap: 10px;
-
+    gap: 3rem;
 }
 
 nav ul li {
-
     list-style: none;
 }
 
@@ -59,19 +64,22 @@ nav ul li a {
     text-decoration: none;
     color: #101928;
 }
+
 header .auth {
     gap: 100px;
 }
-header .auth a{
-     text-decoration: none;
-  padding: 10px;
 
+header .auth a {
+    padding: 5px 10px;
 }
-header .login{
-    border:  0.412px solid #545BE8;
+
+header .login {
+    border: 0.412px solid #545BE8;
     border-radius: 4.119px;
 }
-header .register{
+
+header .register {
     background-color: #545BE8;
-    color:#fff; border-radius: 4.119px;
+    color: #fff;
+    border-radius: 4.119px;
 }
