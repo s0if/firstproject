@@ -9,7 +9,6 @@
 
 body {
     background-color: #eee;
-    height: 100rem;
 }
 
 a {
@@ -88,6 +87,72 @@ header .register {
     border-radius: 4.119px;
 }
 
+.courses {
+    padding: 1rem 0rem;
+    margin: 2rem 0rem;
+}
+
+.courses .first {
+    width: calc((100% - 1rem) / 2);
+    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.courses img {
+    width: 100%;
+    filter: brightness(90%);
+}
+
+.courses .course-item {
+    width: calc((100% - 1rem) / 3);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 8.2372px 10px rgba(0, 0,0,0.1);
+}
+
+.cours {
+    position: relative;
+}
+
+.cours-card {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #FFF;
+}
+
+.cours-card span:first-of-type {
+    align-self: self-start;
+    padding: 0.5rem;
+    margin: 0.7rem;
+    background-color: #545BE8;
+}
+
+.cours-card span:last-of-type {
+    align-self: self-end;
+    padding: 1rem;
+    font-family: Poppins;
+}
+.cours-info{
+    padding: 1rem;
+}
+.cours-info h4{
+    color: #141E32;
+}
+.cours-info .row:first-of-type span:last-of-type{
+    color: #545BE8;
+}
+.cours-info .row:last-child{
+    color: #969696;
+    justify-content: flex-start;
+    gap:1rem
+}
+
 main {
     height: 100vh;
 }
@@ -135,10 +200,6 @@ footer .icons svg {
     width: 2rem;
     height: 2rem;
     fill: #fff;
-}
-
-footer .last {
-    color: #fff;
 }
 
 footer .last {
