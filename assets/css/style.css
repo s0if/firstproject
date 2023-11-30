@@ -91,12 +91,19 @@ header .register {
     padding: 1rem 0rem;
     margin: 2rem 0rem;
 }
+.courses .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+   gap: 2rem;
+   align-items:stretch;
+}
 
 .courses .first {
-    width: calc((100% - 1rem) / 2);
     gap: 1rem;
     display: flex;
     flex-wrap: wrap;
+    width: calc((100% - 1rem) / 2);
 }
 
 .courses img {
@@ -105,7 +112,7 @@ header .register {
 }
 
 .courses .course-item {
-    width: calc((100% - 1rem) / 3);
+    width: calc((100% - 1rem) / 2);
     display: flex;
     flex-direction: column;
     box-shadow: 5px 5px 8.2372px 10px rgba(0, 0,0,0.1);
@@ -128,7 +135,7 @@ header .register {
 
 .cours-card span:first-of-type {
     align-self: self-start;
-    padding: 0.5rem;
+    padding: -0.5rem;
     margin: 0.7rem;
     background-color: #545BE8;
 }
@@ -152,18 +159,38 @@ header .register {
     justify-content: flex-start;
     gap:1rem
 }
-
-main {
-    height: 100vh;
+.courses .last{
+   width: calc((100% - 1rem) / 2);
+   display: flex;
+   flex-direction: column;
+   padding: 0 2rem;
+   gap: 2rem;
 }
-
+.courses .last span{
+   color: #545BE8;
+}
+.courses .last h2{
+    color: #141E32;
+    font-size: 3.2rem;
+}
+.courses .last p{
+    color: #969696;
+}
+.courses .last a{
+    background-color: #545BE8;
+    color: #fff;
+    border-radius: 4.119px;
+    padding: 0.5rem 1.3rem;
+    width: fit-content;
+    font-family: Inter;
+}
 footer {
     background-color: #393E46;
     padding: 5rem 3rem;
 }
 
 footer .row {
-    gap: 6rem;
+    gap: 5rem;
 }
 
 footer a {
