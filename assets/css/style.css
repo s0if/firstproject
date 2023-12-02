@@ -89,6 +89,7 @@ header .login {
 .bigins {
     gap: 2rem;
     background: #F5F5F5;
+    padding: 5rem 0rem;
 }
 
 
@@ -144,13 +145,73 @@ header .login {
 }
 
 .bigins .last img {
-    width: 75%;
+    width: 100%;
     padding: 2rem 5rem;
+}
+
+.second {
+    gap: 1rem;
+    padding: 5rem 0rem;
+    flex-wrap: wrap;
+}
+
+.second .first {
+    display: flex;
+    flex-direction: column;
+    width: calc((100% - 1rem) / 4);
+    gap: 1rem;
+}
+
+.second .first span {
+    color: #545BE8;
+    font-weight: 400;
+}
+
+section .first h2 {
+    font-family: Poppins;
+    color: #141E32;
+    font-size: 2rem;
+}
+
+.second .first p {
+    color: #969696;
 }
 
 .courses {
     padding: 1rem 0rem;
     margin: 2rem 0rem;
+}
+
+.second .last {
+    width: calc((100% - 1rem) / 2);
+}
+
+.second .last .row {
+    justify-content: center;
+    gap: 2rem;
+}
+
+.second .last .item {
+    display: flex;
+    flex-direction: column;
+    background-color: #545BE8;
+    gap: 1rem;
+    padding: 1rem 0.5rem;
+    color: #FFF;
+    width: 10rem;
+    height: 10rem;
+}
+
+.second .last .item img {
+    height: 1.2rem;
+    width: 1.2rem;
+    border-radius: 50%;
+    background-color: #FFF;
+}
+
+.second .last .item p {
+    color: #DDD;
+    font-size: 0.7rem;
 }
 
 .courses .row {
