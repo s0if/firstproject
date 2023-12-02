@@ -35,6 +35,8 @@ header {
     margin-top: 10px;
     background-color: #dedbdb;
     padding: 1rem;
+    position: sticky;
+    top: 0;
 }
 
 header .logo {
@@ -71,20 +73,79 @@ header .auth {
     gap: 100px;
 }
 
-header .auth a {
-    padding: 5px 10px;
-    text-decoration: none;
-}
-
 header .login {
     border: 0.412px solid #545BE8;
     border-radius: 4.119px;
+    padding: 5px 10px;
 }
 
-header .register {
+.register {
     background-color: #545BE8;
     color: #fff;
     border-radius: 4.119px;
+    padding: 5px 10px;
+}
+
+.bigins {
+    gap: 2rem;
+    background: #F5F5F5;
+}
+
+
+.bigins .first {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: calc((100% - 2rem) / 2);
+}
+
+.bigins .first span {
+    color: #545BE8;
+}
+
+.bigins h1 {
+    color: #141E32;
+    font-size: 3.6rem;
+    font-weight: 700;
+    font-family: Poppins;
+}
+
+.bigins p {
+    color: #969696;
+}
+
+.boton {
+    display: flex;
+    gap: 3rem;
+}
+
+.boton .play {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.boton .play svg {
+    box-sizing: content-box;
+    height: 1rem;
+    width: 1rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: #F0C932;
+    fill: white;
+}
+
+.boton .play span {
+    color: #141E32;
+}
+
+.bigins .last {
+    width: calc((100% - 2rem) / 2);
+}
+
+.bigins .last img {
+    width: 75%;
+    padding: 2rem 5rem;
 }
 
 .courses {
