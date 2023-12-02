@@ -214,6 +214,64 @@ section .first h2 {
     font-size: 0.7rem;
 }
 
+.threed {
+    background: linear-gradient(#545BE8 0%, #272DB0);
+    padding: 5rem 0rem;
+    gap: 1rem;
+}
+
+.threed .first img {
+    height: 25rem;
+    width: 25rem;
+    border-radius: 50%;
+    background-color: #F0C932;
+}
+
+.threed .last {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    width: calc((100% - 1rem) / 2);
+}
+
+.threed .last .spanone {
+    color: #F0C932;
+    font-size: 0.7rem;
+}
+
+.threed .last h4 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1rem;
+}
+
+.threed .last p {
+    color: #DDD;
+    font-size: 1.7rem;
+}
+
+.threed .last .number {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.threed .last .number .num {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.threed .last .number .num span:first-of-type {
+    color: #F0C932;
+    font-size: 1.5rem;
+}
+.threed .last .number .num span:last-of-type{
+    color: #DDD;
+}
+
 .courses .row {
     display: flex;
     flex-direction: row;
